@@ -38,7 +38,6 @@ export default class Lyrics extends Component {
     ) {
       return <Spinner />;
     } else {
-      console.log(track);
       return (
         <React.Fragment>
           <Link to="/" className="btn btn-dark btn-sm mb-4">
